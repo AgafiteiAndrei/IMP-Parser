@@ -1,0 +1,15 @@
+vars a,b,c;
+a:=20+b;
+b:=1+v+2-c*2;
+v:=da;
+if(da < 2) then
+print(da);
+print(nuu);
+if(da>2) then
+print(suntJmek);
+endif;
+else
+print(daaaaa);
+print(nuuu);
+print(danu);
+endif;

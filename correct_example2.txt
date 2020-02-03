@@ -1,0 +1,12 @@
+vars p,copie,rezerva;
+p := 121;
+copie:=p;
+while(p != 0) do
+rezerva := rezerva*10 + p%10;
+p := p / 10;
+endwhile;
+if(copie = rezerva) then
+print(rezerva);
+else
+print(0);
+endif;
