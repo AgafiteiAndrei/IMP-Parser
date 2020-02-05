@@ -1,0 +1,7 @@
+vars i;
+i:=1;
+vars stop;
+while(i<stop) do
+print(i);
+i:=i+1;
+endwhile;

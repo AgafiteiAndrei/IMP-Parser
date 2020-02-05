@@ -1,0 +1,12 @@
+vars suma, produs, start, stop;
+produs:=1;
+stop:=10;
+while(start<stop) do
+if(start%2=0) then
+suma:=suma+start;
+else
+produs:=produs*strat;
+endif;
+endwhile;
+print(suma);
+print(produs);

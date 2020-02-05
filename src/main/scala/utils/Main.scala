@@ -11,10 +11,6 @@ object Main {
   def main(args: Array[String]): Unit = {
     Application launch classOf[App]
 
-//    val input = InputFileParser("test.txt")
-//    val ast = GenerateAST(input)
-//    PrettyPrint_v2(ast)
-//      println(PrintAST(ast))
   }
 }
 
