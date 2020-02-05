@@ -51,14 +51,14 @@ public class InputPane extends VBox {
 
     private void run() {
         save();
-        String path = "C:\\Programe_facultate\\sbt worksheet\\IMP-Parser\\" + this.name +".txt";
+        String path = "C:\\Programe_facultate\\licenta\\IMP-Parser\\" + this.name +".txt";
         String result = utils.GenerateResult.get_resultEvaluator(path);
         this.app.getPane().getOutputPane().setText(result);
     }
 
     private void runAst() {
         save();
-        String path = "C:\\Programe_facultate\\sbt worksheet\\IMP-Parser\\" + this.name+".txt";
+        String path = "C:\\Programe_facultate\\licenta\\IMP-Parser\\" + this.name+".txt";
         String result = utils.GenerateResult.get_AST(path);
         this.app.getPane().getOutputPane().setText(result);
     }
@@ -94,7 +94,7 @@ public class InputPane extends VBox {
             this.setName(name);
         }
 
-        file = new File("C:\\Programe_facultate\\sbt worksheet\\IMP-Parser\\" + name + ".txt");
+        file = new File("C:\\Programe_facultate\\licenta\\IMP-Parser\\" + name + ".txt");
 
         try (FileOutputStream fileOutputStream = new FileOutputStream(file);
              BufferedOutputStream bufferedOutputStream = new BufferedOutputStream(fileOutputStream)) {

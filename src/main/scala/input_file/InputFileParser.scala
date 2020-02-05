@@ -70,10 +70,10 @@ object InputFileParser {
       }
 
       if( i == seq.size -1) {
-        if(if_c < 0) throw new Exception("You have "+ -if_c +"\"if" + "\"if\" statement unfinished (\"endif;\" missing)!!")
-        if(while_c < 0) throw new Exception("You have "+ -while_c +"\"if" + "\"if\" statement unfinished (\"endwhile;\" missing)!!")
-        if(if_c > 0) throw new Exception("You have "+ if_c + "\"if\" statement start and unfinished!!")
-        if(while_c > 0) throw new Exception("You have "+ while_c + "\"if\" statement start and unfinished!!")
+        if(if_c < 0) throw new Exception("You have "+ -if_c +"\"if" + " \"if\" statement unfinished (\"endif;\" missing)!!")
+        if(while_c < 0) throw new Exception("You have "+ -while_c +" \"if" + "\"if\" statement unfinished (\"endwhile;\" missing)!!")
+        if(if_c > 0) throw new Exception("You have "+ if_c + " \"if\" statement start and unfinished!!")
+        if(while_c > 0) throw new Exception("You have "+ while_c + " \"if\" statement start and unfinished!!")
       }
 
     }

@@ -39,7 +39,7 @@ public class App extends Application {
 
     public void loadFile() {
         FileChooser fileChooser = new FileChooser();
-        fileChooser.setInitialDirectory(new File("C:\\Programe_facultate\\sbt worksheet\\IMP-Parser\\"));
+        fileChooser.setInitialDirectory(new File("C:\\Programe_facultate\\licenta\\IMP-Parser\\"));
         File file = fileChooser.showOpenDialog(null);
 
         this.pane.getInputPane().load(file.getAbsolutePath());
